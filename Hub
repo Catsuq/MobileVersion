@@ -1,4 +1,4 @@
-
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
@@ -9,10 +9,15 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
 local Military = Instance.new("TextButton")
 local BloxFruit = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local door = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local Framemain = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Framemain = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -24,13 +29,15 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(130, 255, 255)
 Frame.Position = UDim2.new(0.235109717, 0, 0.2532323, 0)
 Frame.Size = UDim2.new(0, 337, 0, 176)
+Frame.Visible = false
 Frame.Active = true
-Frame.Draggable
+Frame.Draggable = true
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ScrollingFrame.Size = UDim2.new(0, 337, 0, 176)
+ScrollingFrame.Position = UDim2.new(-0.00296735764, 0, 0.107954547, 0)
+ScrollingFrame.Size = UDim2.new(0, 337, 0, 156)
 
 dahood.Name = "dahood"
 dahood.Parent = ScrollingFrame
@@ -62,40 +69,79 @@ BloxFruit.Text = "Blox fruit"
 BloxFruit.TextColor3 = Color3.fromRGB(0, 0, 0)
 BloxFruit.TextSize = 14.000
 
+UICorner.CornerRadius = UDim.new(0.0500000007, 8)
+UICorner.Parent = ScrollingFrame
+
+door.Name = "door"
+door.Parent = ScrollingFrame
+door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+door.Position = UDim2.new(0.353240967, 0, -3.7252903e-09, 0)
+door.Size = UDim2.new(0, 100, 0, 50)
+door.Font = Enum.Font.Bangers
+door.Text = "Door"
+door.TextColor3 = Color3.fromRGB(0, 0, 0)
+door.TextSize = 14.000
+
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
-TextLabel.Size = UDim2.new(0, 337, 0, 50)
+TextLabel.Size = UDim2.new(0, 211, 0, 50)
 TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "SAMSUNG MOBILER"
+TextLabel.Text = "Script hub MOBILER"
 TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-Framemain.Name = "Framemain"
-Framemain.Parent = Frame
-Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Framemain.Position = UDim2.new(0.0623145252, 0, 0.0738636553, 0)
-Framemain.Size = UDim2.new(0, 294, 0, 149)
-
-TextLabel_2.Parent = Framemain
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.Position = UDim2.new(0.00340136047, 0, 0.107382551, 0)
-TextLabel_2.Size = UDim2.new(0, 293, 0, 34)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "please be careful make sure correct game script"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
+TextLabel_2.Size = UDim2.new(0, 126, 0, 50)
+TextLabel_2.Font = Enum.Font.Bangers
+TextLabel_2.Text = "version 0.0.2"
+TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
+TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = ScreenGui
+Button.BackgroundColor3 = Color3.fromRGB(172, 183, 255)
+Button.Position = UDim2.new(0, 0, 0.0823146701, 0)
+Button.Size = UDim2.new(0, 96, 0, 35)
+Button.Font = Enum.Font.Bangers
+Button.Text = "Open/CLOSE"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0.0500000007, 8)
+UICorner_2.Parent = Button
+
+Framemain.Name = "Framemain"
+Framemain.Parent = ScreenGui
+Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framemain.Position = UDim2.new(0.257056117, 0, 0.252220392, 0)
+Framemain.Size = UDim2.new(0, 294, 0, 149)
 
 TextLabel_3.Parent = Framemain
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.Position = UDim2.new(0, 0, 0.342465818, 0)
-TextLabel_3.Size = UDim2.new(0, 293, 0, 37)
+TextLabel_3.Position = UDim2.new(0.00340136047, 0, 0.107382551, 0)
+TextLabel_3.Size = UDim2.new(0, 293, 0, 34)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "if u click wrong that you cannot close script u need rejoin"
+TextLabel_3.Text = "please be careful make sure correct game script"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Framemain
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0, 0, 0.342465818, 0)
+TextLabel_4.Size = UDim2.new(0, 293, 0, 37)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "if u click wrong that you cannot close script u need rejoin"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
 
 TextButton.Parent = Framemain
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -108,41 +154,41 @@ TextButton.TextSize = 14.000
 
 -- Scripts:
 
-local function CYCYCV_fake_script() -- dahood.LocalScript 
+local function ZGJNV_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(CYCYCV_fake_script)()
-local function BSATXF_fake_script() -- Military.LocalScript 
+coroutine.wrap(ZGJNV_fake_script)()
+local function VLHUAZA_fake_script() -- Military.LocalScript 
 	local script = Instance.new('LocalScript', Military)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 	end)
 end
-coroutine.wrap(BSATXF_fake_script)()
-local function UFIO_fake_script() -- BloxFruit.LocalScript 
+coroutine.wrap(VLHUAZA_fake_script)()
+local function CZTJ_fake_script() -- BloxFruit.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
 	end)
 end
-coroutine.wrap(UFIO_fake_script)()
-local function TTCF_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+coroutine.wrap(CZTJ_fake_script)()
+local function NAMBD_fake_script() -- door.LocalScript 
+	local script = Instance.new('LocalScript', door)
 
-	local Frame = script.Parent.Parent
-	
 	script.Parent.MouseButton1Click:Connect(function()
-		Frame.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
 	end)
 end
-coroutine.wrap(TTCF_fake_script)()
-local function FKAJLN_fake_script() -- Frame.LocalScript 
+coroutine.wrap(NAMBD_fake_script)()
+local function CZDE_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(2)
@@ -167,4 +213,29 @@ local function FKAJLN_fake_script() -- Frame.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(FKAJLN_fake_script)()
+coroutine.wrap(CZDE_fake_script)()
+local function JPYE_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	local Frame = script.Parent.Parent.Frame
+	local Button = script.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		if Frame.Visible == false then
+			Frame.Visible = true
+		else
+			Frame.Visible = false
+		end
+		end)
+end
+coroutine.wrap(JPYE_fake_script)()
+local function SDRIRE_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(SDRIRE_fake_script)()
