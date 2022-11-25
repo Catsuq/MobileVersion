@@ -1,4 +1,3 @@
--- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
@@ -7,7 +6,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
-local MT = Instance.new("TextButton")
+local Military = Instance.new("TextButton")
 
 --Properties:
 
@@ -18,6 +17,8 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.235109717, 0, 0.2532323, 0)
 Frame.Size = UDim2.new(0, 337, 0, 176)
+Frame.Active = true
+Frame.Draggable = true
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
@@ -35,15 +36,35 @@ dahood.Text = "Da Hood"
 dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 dahood.TextSize = 14.000
 
-MT.Name = "MT"
-MT.Parent = ScrollingFrame
-MT.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-MT.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
-MT.Size = UDim2.new(0, 100, 0, 50)
-MT.Font = Enum.Font.Bangers
-MT.Text = "Military tycoon"
-MT.TextColor3 = Color3.fromRGB(0, 0, 0)
-MT.TextSize = 14.000
+Military.Name = "Military"
+Military.Parent = ScrollingFrame
+Military.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+Military.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
+Military.Size = UDim2.new(0, 100, 0, 50)
+Military.Font = Enum.Font.Bangers
+Military.Text = "Military tycoon"
+Military.TextColor3 = Color3.fromRGB(0, 0, 0)
+Military.TextSize = 14.000
+
+-- Scripts:
+
+local function EBPQ_fake_script() -- dahood.LocalScript 
+	local script = Instance.new('LocalScript', dahood)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+	end)
+end
+coroutine.wrap(EBPQ_fake_script)()
+local function TEHY_fake_script() -- Military.LocalScript 
+	local script = Instance.new('LocalScript', Military)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
+	end)
+end
+coroutine.wrap(TEHY_fake_script)()
+
 
 -- Scripts:
 
