@@ -154,41 +154,47 @@ TextButton.TextSize = 14.000
 
 -- Scripts:
 
-local function ZGJNV_fake_script() -- dahood.LocalScript 
+local function DUEPJAE_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(ZGJNV_fake_script)()
-local function VLHUAZA_fake_script() -- Military.LocalScript 
+coroutine.wrap(DUEPJAE_fake_script)()
+local function ZEFHS_fake_script() -- Military.LocalScript 
 	local script = Instance.new('LocalScript', Military)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 	end)
 end
-coroutine.wrap(VLHUAZA_fake_script)()
-local function CZTJ_fake_script() -- BloxFruit.LocalScript 
+coroutine.wrap(ZEFHS_fake_script)()
+local function UHIS_fake_script() -- BloxFruit.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
 	end)
 end
-coroutine.wrap(CZTJ_fake_script)()
-local function NAMBD_fake_script() -- door.LocalScript 
+coroutine.wrap(UHIS_fake_script)()
+local function QGLMXM_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
-		
+	end)
+end
+coroutine.wrap(QGLMXM_fake_script)()
+local function VQAVE_fake_script() -- door.LocalScript 
+	local script = Instance.new('LocalScript', door)
+
+	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
 	end)
 end
-coroutine.wrap(NAMBD_fake_script)()
-local function CZDE_fake_script() -- Frame.LocalScript 
+coroutine.wrap(VQAVE_fake_script)()
+local function ZLCC_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(2)
@@ -213,8 +219,8 @@ local function CZDE_fake_script() -- Frame.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(CZDE_fake_script)()
-local function JPYE_fake_script() -- Button.LocalScript 
+coroutine.wrap(ZLCC_fake_script)()
+local function YUEY_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local Frame = script.Parent.Parent.Frame
@@ -228,8 +234,8 @@ local function JPYE_fake_script() -- Button.LocalScript
 		end
 		end)
 end
-coroutine.wrap(JPYE_fake_script)()
-local function SDRIRE_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(YUEY_fake_script)()
+local function GJJQU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame = script.Parent.Parent
@@ -238,4 +244,4 @@ local function SDRIRE_fake_script() -- TextButton.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(SDRIRE_fake_script)()
+coroutine.wrap(GJJQU_fake_script)()
