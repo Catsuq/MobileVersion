@@ -1,3 +1,4 @@
+
 -- Version: 3.2
 
 -- Instances:
@@ -7,6 +8,12 @@ local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
 local Military = Instance.new("TextButton")
+local BloxFruit = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Framemain = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
 
 --Properties:
 
@@ -14,17 +21,16 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundColor3 = Color3.fromRGB(130, 255, 255)
 Frame.Position = UDim2.new(0.235109717, 0, 0.2532323, 0)
 Frame.Size = UDim2.new(0, 337, 0, 176)
 Frame.Active = true
-Frame.Draggable = true
+Frame.Draggable
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-ScrollingFrame.Position = UDim2.new(0.296735913, 0, 0, 0)
-ScrollingFrame.Size = UDim2.new(0, 237, 0, 176)
+ScrollingFrame.Size = UDim2.new(0, 337, 0, 176)
 
 dahood.Name = "dahood"
 dahood.Parent = ScrollingFrame
@@ -46,21 +52,119 @@ Military.Text = "Military tycoon"
 Military.TextColor3 = Color3.fromRGB(0, 0, 0)
 Military.TextSize = 14.000
 
+BloxFruit.Name = "BloxFruit"
+BloxFruit.Parent = ScrollingFrame
+BloxFruit.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+BloxFruit.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
+BloxFruit.Size = UDim2.new(0, 100, 0, 50)
+BloxFruit.Font = Enum.Font.Bangers
+BloxFruit.Text = "Blox fruit"
+BloxFruit.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruit.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
+TextLabel.Size = UDim2.new(0, 337, 0, 50)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "SAMSUNG MOBILER"
+TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Framemain.Name = "Framemain"
+Framemain.Parent = Frame
+Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framemain.Position = UDim2.new(0.0623145252, 0, 0.0738636553, 0)
+Framemain.Size = UDim2.new(0, 294, 0, 149)
+
+TextLabel_2.Parent = Framemain
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.00340136047, 0, 0.107382551, 0)
+TextLabel_2.Size = UDim2.new(0, 293, 0, 34)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "please be careful make sure correct game script"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Framemain
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.342465818, 0)
+TextLabel_3.Size = UDim2.new(0, 293, 0, 37)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "if u click wrong that you cannot close script u need rejoin"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextButton.Parent = Framemain
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.159863949, 0, 0.664429545, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "i Agree"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
 -- Scripts:
 
-local function EBPQ_fake_script() -- dahood.LocalScript 
+local function CYCYCV_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(EBPQ_fake_script)()
-local function TEHY_fake_script() -- Military.LocalScript 
+coroutine.wrap(CYCYCV_fake_script)()
+local function BSATXF_fake_script() -- Military.LocalScript 
 	local script = Instance.new('LocalScript', Military)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 	end)
 end
-coroutine.wrap(TEHY_fake_script)()
+coroutine.wrap(BSATXF_fake_script)()
+local function UFIO_fake_script() -- BloxFruit.LocalScript 
+	local script = Instance.new('LocalScript', BloxFruit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
+	end)
+end
+coroutine.wrap(UFIO_fake_script)()
+local function TTCF_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(TTCF_fake_script)()
+local function FKAJLN_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	wait(2)
+	
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Respond by Developer";
+		Text = "if you click script after wait appear up ";
+		Icon = "";
+		Duration = 10;
+		Button1 = "OK";
+		Callback = NotificationBindable;
+	})
+end
+coroutine.wrap(FKAJLN_fake_script)()
