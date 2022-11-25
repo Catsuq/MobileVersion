@@ -34,6 +34,7 @@ Frame.Size = UDim2.new(0, 348, 0, 176)
 Frame.Visible = false
 Frame.Active = true
 Frame.DraggAble = true
+
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
