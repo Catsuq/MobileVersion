@@ -163,55 +163,55 @@ TextButton.TextSize = 14.000
 
 -- Scripts:
 
-local function ZXHHXM_fake_script() -- dahood.LocalScript 
+local function LAIYPMX_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(ZXHHXM_fake_script)()
-local function GZNNDWO_fake_script() -- Military.LocalScript 
+coroutine.wrap(LAIYPMX_fake_script)()
+local function LOEEY_fake_script() -- Military.LocalScript 
 	local script = Instance.new('LocalScript', Military)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 	end)
 end
-coroutine.wrap(GZNNDWO_fake_script)()
-local function NNEEY_fake_script() -- BloxFruit.LocalScript 
+coroutine.wrap(LOEEY_fake_script)()
+local function HTLEPR_fake_script() -- BloxFruit.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
 	end)
 end
-coroutine.wrap(NNEEY_fake_script)()
-local function ORPXW_fake_script() -- door.LocalScript 
+coroutine.wrap(HTLEPR_fake_script)()
+local function VOPMAUR_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 	end)
 end
-coroutine.wrap(ORPXW_fake_script)()
-local function BDHWDGC_fake_script() -- door.LocalScript 
+coroutine.wrap(VOPMAUR_fake_script)()
+local function BQJV_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.comminousVibes-Exploit/Scripts/main/doors/main.lua"))()
 	end)
 end
-coroutine.wrap(BDHWDGC_fake_script)()
-local function AVEZYQX_fake_script() -- prison.LocalScript 
+coroutine.wrap(BQJV_fake_script)()
+local function IYVH_fake_script() -- prison.LocalScript 
 	local script = Instance.new('LocalScript', prison)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt%22"))();
+		loadstring(game:HttpGet("https://pastebin.com/raw/kSYDZq7q", true))()
 	end)
 end
-coroutine.wrap(AVEZYQX_fake_script)()
-local function EAMBTF_fake_script() -- Frame.LocalScript 
+coroutine.wrap(IYVH_fake_script)()
+local function NBPHUSF_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(2)
@@ -236,8 +236,8 @@ local function EAMBTF_fake_script() -- Frame.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(EAMBTF_fake_script)()
-local function FRMIKFX_fake_script() -- Button.LocalScript 
+coroutine.wrap(NBPHUSF_fake_script)()
+local function ZLKHG_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local Frame = script.Parent.Parent.Frame
@@ -251,8 +251,8 @@ local function FRMIKFX_fake_script() -- Button.LocalScript
 		end
 		end)
 end
-coroutine.wrap(FRMIKFX_fake_script)()
-local function ZWYCSVR_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZLKHG_fake_script)()
+local function SADS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame = script.Parent.Parent
@@ -261,4 +261,4 @@ local function ZWYCSVR_fake_script() -- TextButton.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(ZWYCSVR_fake_script)()
+coroutine.wrap(SADS_fake_script)()
