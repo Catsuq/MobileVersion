@@ -12,6 +12,7 @@ local BloxFruit = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local door = Instance.new("TextButton")
 local prison = Instance.new("TextButton")
+local keyboard = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local Button = Instance.new("TextButton")
@@ -91,6 +92,16 @@ prison.Text = "prison life"
 prison.TextColor3 = Color3.fromRGB(0, 0, 0)
 prison.TextSize = 14.000
 
+keyboard.Name = "keyboard"
+keyboard.Parent = ScrollingFrame
+keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
+keyboard.Size = UDim2.new(0, 100, 0, 50)
+keyboard.Font = Enum.Font.Bangers
+keyboard.Text = "Keyboard mobile"
+keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+keyboard.TextSize = 14.000
+
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
@@ -133,6 +144,7 @@ Framemain.Parent = ScreenGui
 Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Framemain.Position = UDim2.new(0.515804768, 0, 0.576869726, 0)
 Framemain.Size = UDim2.new(0, 294, 0, 149)
+Framemain.Visible = false
 
 TextLabel_3.Parent = Framemain
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -163,55 +175,91 @@ TextButton.TextSize = 14.000
 
 -- Scripts:
 
-local function LAIYPMX_fake_script() -- dahood.LocalScript 
+local function UEFT_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(LAIYPMX_fake_script)()
-local function LOEEY_fake_script() -- Military.LocalScript 
+coroutine.wrap(UEFT_fake_script)()
+local function FHRP_fake_script() -- Military.LocalScript 
 	local script = Instance.new('LocalScript', Military)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 	end)
 end
-coroutine.wrap(LOEEY_fake_script)()
-local function HTLEPR_fake_script() -- BloxFruit.LocalScript 
+coroutine.wrap(FHRP_fake_script)()
+local function XBAC_fake_script() -- BloxFruit.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruit)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
 	end)
 end
-coroutine.wrap(HTLEPR_fake_script)()
-local function VOPMAUR_fake_script() -- door.LocalScript 
+coroutine.wrap(XBAC_fake_script)()
+local function LXLBV_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 	end)
 end
-coroutine.wrap(VOPMAUR_fake_script)()
-local function BQJV_fake_script() -- door.LocalScript 
+coroutine.wrap(LXLBV_fake_script)()
+local function QYHLP_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.comminousVibes-Exploit/Scripts/main/doors/main.lua"))()
 	end)
 end
-coroutine.wrap(BQJV_fake_script)()
-local function IYVH_fake_script() -- prison.LocalScript 
+coroutine.wrap(QYHLP_fake_script)()
+local function IIYOU_fake_script() -- prison.LocalScript 
 	local script = Instance.new('LocalScript', prison)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/kSYDZq7q", true))()
 	end)
 end
-coroutine.wrap(IYVH_fake_script)()
-local function NBPHUSF_fake_script() -- Frame.LocalScript 
+coroutine.wrap(IIYOU_fake_script)()
+local function CYWI_fake_script() -- keyboard.LocalScript 
+	local script = Instance.new('LocalScript', keyboard)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jinnie-COOL/Keybaord/main/Keys", true))()
+	end)
+end
+coroutine.wrap(CYWI_fake_script)()
+local function CZEJVOW_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(CZEJVOW_fake_script)()
+local function CGLEY_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(CGLEY_fake_script)()
+local function QUVAEVM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(2)
@@ -236,8 +284,36 @@ local function NBPHUSF_fake_script() -- Frame.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(NBPHUSF_fake_script)()
-local function ZLKHG_fake_script() -- Button.LocalScript 
+coroutine.wrap(QUVAEVM_fake_script)()
+local function PSRZ_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(PSRZ_fake_script)()
+local function KBUK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(KBUK_fake_script)()
+local function IRJDECC_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local Frame = script.Parent.Parent.Frame
@@ -251,8 +327,8 @@ local function ZLKHG_fake_script() -- Button.LocalScript
 		end
 		end)
 end
-coroutine.wrap(ZLKHG_fake_script)()
-local function SADS_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(IRJDECC_fake_script)()
+local function KNJLKX_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame = script.Parent.Parent
@@ -261,4 +337,4 @@ local function SADS_fake_script() -- TextButton.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(SADS_fake_script)()
+coroutine.wrap(KNJLKX_fake_script)()
