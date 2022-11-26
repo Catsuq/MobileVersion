@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.2
+-- Version: 3.5
 
 -- Instances:
 
@@ -78,7 +78,7 @@ door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
 door.Size = UDim2.new(0, 100, 0, 50)
 door.Font = Enum.Font.Bangers
-door.Text = "Door"
+door.Text = "Doors"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
@@ -98,7 +98,7 @@ keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
 keyboard.Size = UDim2.new(0, 100, 0, 50)
 keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "Keyboard mobile"
+keyboard.Text = "Keyboard for mobile"
 keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
 keyboard.TextSize = 14.000
 
