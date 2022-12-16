@@ -105,8 +105,8 @@ keyboard.TextSize = 14.000
 
 plz.Name = "plz"
 plz.Parent = ScrollingFrame
-plz.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-plz.Position = UDim2.new(-0.00284213573, 0, -0.129361758, 0)
+plz.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+plz.Position = UDim2.new(-0.00284213573, 0, 0.229361758, 0)
 plz.Size = UDim2.new(0, 100, 0, 50)
 plz.Font = Emun.Font.SourceSans
 plz.Text = "Pls Donate"
