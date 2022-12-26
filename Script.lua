@@ -79,7 +79,7 @@ door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
 door.Size = UDim2.new(0, 100, 0, 50)
 door.Font = Enum.Font.Bangers
-door.Text = "Doors"
+door.Text = "Doors (most used)"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
@@ -103,16 +103,6 @@ keyboard.Text = "PC Keyboard"
 keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
 keyboard.TextSize = 14.000
 
-plz.Name = "plz"
-plz.Parent = ScrollingFrame
-plz.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-plz.Position = UDim2.new(-0.00284213573, 0, 0.229361758, 0)
-plz.Size = UDim2.new(0, 100, 0, 50)
-plz.Font = Emun.Font.SourceSans
-plz.Text = "Pls Donate"
-plz.TextColor3 = Color3.fromRGB(0, 0, 0)
-plz.TextSize = 14.000
-
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
@@ -129,7 +119,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.Bangers
-TextLabel_2.Text = "v1.1a"
+TextLabel_2.Text = "v1.1b"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -349,11 +339,3 @@ local function KNJLKX_fake_script() -- TextButton.LocalScript
 	end)
 end
 coroutine.wrap(KNJLKX_fake_script)()
-local function PLQUAS_fake_script() -- plz.LocalScript 
-        local script = Instance.new('LocalScript', plz)
-
-        script.Parent.MouseButton1Click:Connect(function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/caca%207441',true))()
-        end)
-end
-coroutine.wrap(PLQUAS_fake_script)()
