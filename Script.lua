@@ -204,7 +204,7 @@ local function LXLBV_fake_script() -- door.LocalScript
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+		loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/Catsuq/Dorrs/maid/message%20(11).txt"))()
 	end)
 end
 coroutine.wrap(LXLBV_fake_script)()
