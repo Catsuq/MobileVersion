@@ -7,7 +7,7 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
-local Military = Instance.new("TextButton")
+local ice = Instance.new("TextButton")
 local BloxFruit = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local door = Instance.new("TextButton")
@@ -49,15 +49,15 @@ dahood.Text = "Da Hood"
 dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 dahood.TextSize = 14.000
 
-Military.Name = "Military"
-Military.Parent = ScrollingFrame
-Military.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-Military.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
-Military.Size = UDim2.new(0, 100, 0, 50)
-Military.Font = Enum.Font.Bangers
-Military.Text = "Military tycoon"
-Military.TextColor3 = Color3.fromRGB(0, 0, 0)
-Military.TextSize = 14.000
+ice.Name = "ice"
+ice.Parent = ScrollingFrame
+ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
+ice.Size = UDim2.new(0, 100, 0, 50)
+ice.Font = Enum.Font.Bangers
+ice.Text = "Icecream sim"
+ice.TextColor3 = Color3.fromRGB(0, 0, 0)
+ice.TextSize = 14.000
 
 BloxFruit.Name = "BloxFruit"
 BloxFruit.Parent = ScrollingFrame
@@ -78,7 +78,7 @@ door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
 door.Size = UDim2.new(0, 100, 0, 50)
 door.Font = Enum.Font.Bangers
-door.Text = "Doors (most used)"
+door.Text = "Door's"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
@@ -107,7 +107,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
 TextLabel.Size = UDim2.new(0, 217, 0, 50)
 TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "Fun hub!"
+TextLabel.Text = "Fun hub"
 TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -118,7 +118,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "v1.2z"
+TextLabel_2.Text = "v1.2a"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -183,11 +183,11 @@ local function UEFT_fake_script() -- dahood.LocalScript
 	end)
 end
 coroutine.wrap(UEFT_fake_script)()
-local function FHRP_fake_script() -- Military.LocalScript 
-	local script = Instance.new('LocalScript', Military)
+local function FHRP_fake_script() -- ice.LocalScript 
+	local script = Instance.new('LocalScript', ice)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
+		loadstring(game:HttpGet"https://pastebin.com/raw/qbn4YmJz")()
 	end)
 end
 coroutine.wrap(FHRP_fake_script)()
@@ -203,7 +203,7 @@ local function LXLBV_fake_script() -- door.LocalScript
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/MOBILERVERISON/Dooors/main/King"))()
+		loadstring(game:HttpGet("loadstring(game:HttpGet('https://pastebin.com/raw/UXtgRLin"))()
 	end)
 end
 coroutine.wrap(LXLBV_fake_script)()
