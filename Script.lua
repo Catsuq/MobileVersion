@@ -8,7 +8,7 @@ local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local dahood = Instance.new("TextButton")
 local ice = Instance.new("TextButton")
-local BloxFruit = Instance.new("TextButton")
+local psx = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local door = Instance.new("TextButton")
 local prison = Instance.new("TextButton")
@@ -59,15 +59,15 @@ ice.Text = "Icecream sim"
 ice.TextColor3 = Color3.fromRGB(0, 0, 0)
 ice.TextSize = 14.000
 
-BloxFruit.Name = "BloxFruit"
-BloxFruit.Parent = ScrollingFrame
-BloxFruit.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-BloxFruit.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
-BloxFruit.Size = UDim2.new(0, 100, 0, 50)
-BloxFruit.Font = Enum.Font.Bangers
-BloxFruit.Text = "Blox fruits"
-BloxFruit.TextColor3 = Color3.fromRGB(0, 0, 0)
-BloxFruit.TextSize = 14.000
+psx.Name = "psx"
+psx.Parent = ScrollingFrame
+psx.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+psx.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
+psx.Size = UDim2.new(0, 100, 0, 50)
+psx.Font = Enum.Font.Bangers
+psx.Text = "Pet Simulator X"
+psx.TextColor3 = Color3.fromRGB(0, 0, 0)
+psx.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0.0500000007, 8)
 UICorner.Parent = ScrollingFrame
@@ -118,7 +118,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "v1.3a"
+TextLabel_2.Text = "v1.4a"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -191,11 +191,11 @@ local function FHRP_fake_script() -- ice.LocalScript
 	end)
 end
 coroutine.wrap(FHRP_fake_script)()
-local function XBAC_fake_script() -- BloxFruit.LocalScript 
-	local script = Instance.new('LocalScript', BloxFruit)
+local function XBAC_fake_script() -- psx.LocalScript 
+	local script = Instance.new('LocalScript', psx)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Pcversion", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
 	end)
 end
 coroutine.wrap(XBAC_fake_script)()
