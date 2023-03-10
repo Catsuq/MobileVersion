@@ -6,6 +6,9 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
 local dahood = Instance.new("TextButton")
 local ice = Instance.new("TextButton")
 local psx = Instance.new("TextButton")
@@ -18,9 +21,7 @@ local TextLabel_2 = Instance.new("TextLabel")
 local Button = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local Framemain = Instance.new("Frame")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+
 
 --Properties:
 
@@ -38,113 +39,6 @@ ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 ScrollingFrame.Size = UDim2.new(0, 348, 0, 156)
-
-dahood.Name = "dahood"
-dahood.Parent = ScrollingFrame
-dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
-dahood.Size = UDim2.new(0, 100, 0, 50)
-dahood.Font = Enum.Font.Bangers
-dahood.Text = "Da Hood"
-dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
-dahood.TextSize = 14.000
-
-ice.Name = "ice"
-ice.Parent = ScrollingFrame
-ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
-ice.Size = UDim2.new(0, 100, 0, 50)
-ice.Font = Enum.Font.Bangers
-ice.Text = "Icecream sim"
-ice.TextColor3 = Color3.fromRGB(0, 0, 0)
-ice.TextSize = 14.000
-
-psx.Name = "psx"
-psx.Parent = ScrollingFrame
-psx.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-psx.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
-psx.Size = UDim2.new(0, 100, 0, 50)
-psx.Font = Enum.Font.Bangers
-psx.Text = "Pet Simulator X"
-psx.TextColor3 = Color3.fromRGB(0, 0, 0)
-psx.TextSize = 14.000
-
-UICorner.CornerRadius = UDim.new(0.0500000007, 8)
-UICorner.Parent = ScrollingFrame
-
-door.Name = "door"
-door.Parent = ScrollingFrame
-door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
-door.Size = UDim2.new(0, 100, 0, 50)
-door.Font = Enum.Font.Bangers
-door.Text = "Door's"
-door.TextColor3 = Color3.fromRGB(0, 0, 0)
-door.TextSize = 14.000
-
-prison.Name = "prison"
-prison.Parent = ScrollingFrame
-prison.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-prison.Position = UDim2.new(0.666365564, 0, -3.7252903e-09, 0)
-prison.Size = UDim2.new(0, 100, 0, 50)
-prison.Font = Enum.Font.Bangers
-prison.Text = "prison life"
-prison.TextColor3 = Color3.fromRGB(0, 0, 0)
-prison.TextSize = 14.000
-
-keyboard.Name = "keyboard"
-keyboard.Parent = ScrollingFrame
-keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
-keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
-keyboard.Size = UDim2.new(0, 100, 0, 50)
-keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "PC Keyboard"
-keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
-keyboard.TextSize = 14.000
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
-TextLabel.Size = UDim2.new(0, 217, 0, 50)
-TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "Fun hub (Remake)"
-TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
-TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "v1.4d"
-TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-Button.Name = "Button"
-Button.Parent = ScreenGui
-Button.BackgroundColor3 = Color3.fromRGB(172, 183, 255)
-Button.Position = UDim2.new(0, 0, 0.0823146701, 0)
-Button.Size = UDim2.new(0, 96, 0, 35)
-Button.Font = Enum.Font.SourceSans
-Button.Text = "Open/Close"
-Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button.TextScaled = true
-Button.TextSize = 14.000
-Button.TextWrapped = true
-
-UICorner_2.CornerRadius = UDim.new(0.0500000007, 8)
-UICorner_2.Parent = Button
-
-Framemain.Name = "Framemain"
-Framemain.Parent = ScreenGui
-Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Framemain.Position = UDim2.new(0.515804768, 0, 0.576869726, 0)
-Framemain.Size = UDim2.new(0, 294, 0, 149)
-Framemain.Visible = false
 
 TextLabel_3.Parent = Framemain
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -173,65 +67,165 @@ TextButton.Text = "i Agree"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
+dahood.Name = "dahood"
+dahood.Parent = ScrollingFrame
+dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
+dahood.Size = UDim2.new(0, 100, 0, 50)
+dahood.Font = Enum.Font.Bangers
+dahood.Text = "Da Hood"
+dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahood.TextSize = 14.000
+
+ice.Name = "ice"
+ice.Parent = ScrollingFrame
+ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
+ice.Size = UDim2.new(0, 100, 0, 50)
+ice.Font = Enum.Font.Bangers
+ice.Text = "Icecreamsim(OP)"
+ice.TextColor3 = Color3.fromRGB(0, 0, 0)
+ice.TextSize = 14.000
+
+psx.Name = "psx"
+psx.Parent = ScrollingFrame
+psx.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+psx.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
+psx.Size = UDim2.new(0, 100, 0, 50)
+psx.Font = Enum.Font.Bangers
+psx.Text = "PSX"
+psx.TextColor3 = Color3.fromRGB(0, 0, 0)
+psx.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0.0500000007, 8)
+UICorner.Parent = ScrollingFrame
+
+door.Name = "door"
+door.Parent = ScrollingFrame
+door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
+door.Size = UDim2.new(0, 100, 0, 50)
+door.Font = Enum.Font.Bangers
+door.Text = "Doors"
+door.TextColor3 = Color3.fromRGB(0, 0, 0)
+door.TextSize = 14.000
+
+prison.Name = "prison"
+prison.Parent = ScrollingFrame
+prison.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+prison.Position = UDim2.new(0.666365564, 0, -3.7252903e-09, 0)
+prison.Size = UDim2.new(0, 100, 0, 50)
+prison.Font = Enum.Font.Bangers
+prison.Text = "prison life"
+prison.TextColor3 = Color3.fromRGB(0, 0, 0)
+prison.TextSize = 14.000
+
+keyboard.Name = "keyboard"
+keyboard.Parent = ScrollingFrame
+keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
+keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
+keyboard.Size = UDim2.new(0, 100, 0, 50)
+keyboard.Font = Enum.Font.Bangers
+keyboard.Text = "PC Keyboard"
+keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+keyboard.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
+TextLabel.Size = UDim2.new(0, 217, 0, 50)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "Fun hub(Remake)"
+TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
+TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "v1.6G"
+TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = ScreenGui
+Button.BackgroundColor3 = Color3.fromRGB(172, 183, 255)
+Button.Position = UDim2.new(0, 0, 0.0823146701, 0)
+Button.Size = UDim2.new(0, 96, 0, 35)
+Button.Font = Enum.Font.SourceSans
+Button.Text = "Open/Close"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0.0500000007, 8)
+UICorner_2.Parent = Button
+
+Framemain.Name = "Framemain"
+Framemain.Parent = ScreenGui
+Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framemain.Position = UDim2.new(0.515804768, 0, 0.576869726, 0)
+Framemain.Size = UDim2.new(0, 294, 0, 149)
+Framemain.Visible = false
+
+
 -- Scripts:
 
-local function UEFT_fake_script() -- dahood.LocalScript 
+local function KSAT_fake_script() -- dahood.LocalScript 
 	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
-coroutine.wrap(UEFT_fake_script)()
-local function FHRP_fake_script() -- ice.LocalScript 
+coroutine.wrap(KSAT_fake_script)()
+local function QAWP_fake_script() -- ice.LocalScript 
 	local script = Instance.new('LocalScript', ice)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://pastebin.com/raw/qbn4YmJz")()
 	end)
 end
-coroutine.wrap(FHRP_fake_script)()
-local function XBAC_fake_script() -- psx.LocalScript 
+coroutine.wrap(QAWP_fake_script)()
+local function PMAC_fake_script() -- psx.LocalScript 
 	local script = Instance.new('LocalScript', psx)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
 	end)
 end
-coroutine.wrap(XBAC_fake_script)()
-local function LXLBV_fake_script() -- door.LocalScript 
+coroutine.wrap(PMAC_fake_script)()
+local function LUWBX_fake_script() -- door.LocalScript 
 	local script = Instance.new('LocalScript', door)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/UXtgRLin"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 	end)
 end
-coroutine.wrap(LXLBV_fake_script)()
-local function QYHLP_fake_script() -- door.LocalScript 
-	local script = Instance.new('LocalScript', door)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.comminousVibes-Exploit/Scripts/main/doors/main.lua"))()
-	end)
-end
-coroutine.wrap(QYHLP_fake_script)()
-local function IIYOU_fake_script() -- prison.LocalScript 
+coroutine.wrap(LUWBX_fake_script)()
+local function IIPPU_fake_script() -- prison.LocalScript 
 	local script = Instance.new('LocalScript', prison)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/kSYDZq7q", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 	end)
 end
-coroutine.wrap(IIYOU_fake_script)()
-local function CYWI_fake_script() -- keyboard.LocalScript 
+coroutine.wrap(IIPPU_fake_script)()
+local function CMRI_fake_script() -- keyboard.LocalScript 
 	local script = Instance.new('LocalScript', keyboard)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Jinnie-COOL/Keybaord/main/Keys", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 	end)
 end
-coroutine.wrap(CYWI_fake_script)()
-local function CZEJVOW_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(CMRI_fake_script)()
+local function CZEFOW_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -244,8 +238,8 @@ local function CZEJVOW_fake_script() -- ScrollingFrame.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(CZEJVOW_fake_script)()
-local function CGLEY_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(CZEFOW_fake_script)()
+local function PLQUY_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -258,8 +252,8 @@ local function CGLEY_fake_script() -- TextLabel.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(CGLEY_fake_script)()
-local function QUVAEVM_fake_script() -- Frame.LocalScript 
+coroutine.wrap(PLQUY_fake_script)()
+local function QUVPVM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(2)
@@ -284,8 +278,8 @@ local function QUVAEVM_fake_script() -- Frame.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(QUVAEVM_fake_script)()
-local function PSRZ_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(QUVPVM_fake_script)()
+local function QARRZ_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -298,8 +292,8 @@ local function PSRZ_fake_script() -- TextLabel_2.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(PSRZ_fake_script)()
-local function KBUK_fake_script() -- Frame.LocalScript 
+coroutine.wrap(QARRZ_fake_script)()
+local function MQWAD_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -312,8 +306,8 @@ local function KBUK_fake_script() -- Frame.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(KBUK_fake_script)()
-local function IRJDECC_fake_script() -- Button.LocalScript 
+coroutine.wrap(MQWAD_fake_script)()
+local function EWQQUPH_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local Frame = script.Parent.Parent.Frame
@@ -327,8 +321,8 @@ local function IRJDECC_fake_script() -- Button.LocalScript
 		end
 		end)
 end
-coroutine.wrap(IRJDECC_fake_script)()
-local function KNJLKX_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EWQQUPH_fake_script)()
+local function NAQL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame = script.Parent.Parent
@@ -337,4 +331,4 @@ local function KNJLKX_fake_script() -- TextButton.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(KNJLKX_fake_script)()
+coroutine.wrap(NAQL_fake_script)()
