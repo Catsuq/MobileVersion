@@ -271,7 +271,7 @@ local function QUVPVM_fake_script() -- Frame.LocalScript
 	--
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "Respond by Developer";
-		Text = "if you click script after wait appear up ";
+		Text = "if you click script after wait for it to appear";
 		Icon = "";
 		Duration = 10;
 		Button1 = "OK";
