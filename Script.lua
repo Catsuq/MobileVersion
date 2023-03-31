@@ -45,7 +45,7 @@ TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.Position = UDim2.new(0.00340136047, 0, 0.107382551, 0)
 TextLabel_3.Size = UDim2.new(0, 293, 0, 34)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "please be careful make sure correct game script"
+TextLabel_3.Text = "make sure you clicked the correct game"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextSize = 14.000
 
@@ -54,7 +54,7 @@ TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.Position = UDim2.new(0, 0, 0.342465818, 0)
 TextLabel_4.Size = UDim2.new(0, 293, 0, 37)
 TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "if u click wrong that you cannot close script u need rejoin"
+TextLabel_4.Text = "if u clicked the wrong script you need to rejoin"
 TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.TextSize = 14.000
 
@@ -146,7 +146,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "v1.6N"
+TextLabel_2.Text = "v1.6Q"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -272,7 +272,7 @@ local function QUVPVM_fake_script() -- Frame.LocalScript
 	--
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "Respond by Developer";
-		Text = "if you click script after wait for it to appear";
+		Text = "if you click a script after wait for it to appear";
 		Icon = "";
 		Duration = 10;
 		Button1 = "OK";
